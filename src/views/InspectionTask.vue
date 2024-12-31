@@ -246,6 +246,87 @@ export default {
           planEndTime: '2024-01-20 17:00:00',
           areas: ['工厂1-车间A'],
           description: '日常设备巡检任务'
+        },
+        {
+          id: '2',
+          deviceName: '冷却塔-B2',
+          inspectionTime: '2024-01-15 10:30:00',
+          inspector: '李工',
+          status: '需维护',
+          result: '水泵有轻微异响，建议检查',
+          nextTime: '2024-01-22 10:30:00'
+        },
+        {
+          id: '3',
+          deviceName: '配电柜-C3',
+          inspectionTime: '2024-01-15 11:00:00',
+          inspector: '王工',
+          status: '正常',
+          result: '电压电流正常，接线牢固',
+          nextTime: '2024-01-22 11:00:00'
+        },
+        {
+          id: '4',
+          deviceName: '锅炉系统-D4',
+          inspectionTime: '2024-01-15 13:30:00',
+          inspector: '刘工',
+          status: '异常',
+          result: '压力偏高，需要立即处理',
+          nextTime: '2024-01-22 13:30:00'
+        },
+        {
+          id: '5',
+          deviceName: '通风系统-E5',
+          inspectionTime: '2024-01-15 14:00:00',
+          inspector: '赵工',
+          status: '正常',
+          result: '风机运转正常，管道通畅',
+          nextTime: '2024-01-22 14:00:00'
+        },
+        {
+          id: '6',
+          deviceName: '消防系统-F6',
+          inspectionTime: '2024-01-15 15:00:00',
+          inspector: '孙工',
+          status: '正常',
+          result: '喷淋系统工作正常，压力达标',
+          nextTime: '2024-01-22 15:00:00'
+        },
+        {
+          id: '7',
+          deviceName: '电梯-G7',
+          inspectionTime: '2024-01-15 16:00:00',
+          inspector: '周工',
+          status: '需维护',
+          result: '轿厢有轻微抖动，需要调试',
+          nextTime: '2024-01-22 16:00:00'
+        },
+        {
+          id: '8',
+          deviceName: '空调主机-H8',
+          inspectionTime: '2024-01-15 16:30:00',
+          inspector: '吴工',
+          status: '正常',
+          result: '制冷效果良好，运行稳定',
+          nextTime: '2024-01-22 16:30:00'
+        },
+        {
+          id: '9',
+          deviceName: '污水处理-I9',
+          inspectionTime: '2024-01-15 17:00:00',
+          inspector: '郑工',
+          status: '正常',
+          result: '水质达标，设备运行正常',
+          nextTime: '2024-01-22 17:00:00'
+        },
+        {
+          id: '10',
+          deviceName: '发电机组-J10',
+          inspectionTime: '2024-01-15 17:30:00',
+          inspector: '陈工',
+          status: '正常',
+          result: '备用电源测试正常，油位充足',
+          nextTime: '2024-01-22 17:30:00'
         }
       ]
     }
